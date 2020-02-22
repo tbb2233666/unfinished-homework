@@ -7,11 +7,11 @@ int main ()
 	char filename[1400];
 	char tempstr[1024];
 	FILE *fp;
-	printf("请输入你要转化的md文件名：");
+	printf("璇疯緭鍏ヤ綘瑕佽浆鍖栫殑md鏂囦欢鍚嶏細");
 	gets(filename);
 	if((fp=fopen(filename,"r+"))==NULL)
 	{
-		printf("打开文件%s出现错误",filename);
+		printf("鎵撳紑鏂囦欢%s鍑虹幇閿欒",filename);
 		return 0;
 	}
 	while((c == fgetc(fp)) != EOF)
